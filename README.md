@@ -32,14 +32,21 @@ To run this project locally, you will need the following installed:
 
    ```bash
    git clone https://github.com/your-username/book-review.git
+
+2. **Navigate to the Project Directory**
+
+To navigate to the project directory, run the following command:
+
+   ```bash
+   cd book-review
+```
 2. **Navigate to the Project Directory:**
-![image](https://github.com/user-attachments/assets/d4449e59-8783-4d48-9f85-1e449459951e)
-
-3. **Install Dependencies for Backend:**
-![image](https://github.com/user-attachments/assets/3d0b4a2a-52b0-491f-8719-cd3cf5cbe8d3)
-
-4. **Install Dependencies for Frontend:**
-
+   
+```bash
+cd book-review
+```
+4. **Install Dependencies for Backend:**
+5. **Install Dependencies for Frontend:**
 
 
 

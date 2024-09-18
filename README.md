@@ -56,4 +56,38 @@ To run this project locally, you will need the following installed:
    npm install
    ```
 
+### Running the App
+1. **Start the Backend""
+   In the server folder, run the following command:
+   ```bash
+   npm run dev
+   ```
+   The backend will start on http://localhost:5000.
+2. **Start the Frontend:**
+   In the client folder, run:
+   ```bash
+   npm start
+   ```
+   The frontend will run on http://localhost:3000.
+
+
+## API Endpoints
+
+### Retrieve the List of All Books
+
+**GET** `/books`
+
+Retrieve a list of all books available in the system.
+
+### Retrieve Details and Reviews for a Specific Book
+
+**GET** `/books/:id`
+
+Retrieve details and reviews for a specific book, where `:id` is the unique identifier for the book.
+
+### Submit a Review for a Specific Book
+
+**POST** `/books/:id/reviews`
+
+Submit a review for a specific book, where `:id` is the unique identifier for the book.
 

@@ -1,0 +1,62 @@
+/* BookDetailsPage.css */
+.book-details {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+  
+  .book-info {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+  }
+  
+  .book-info img {
+    width: 200px;
+    border-radius: 8px;
+  }
+  
+  .book-meta {
+    flex: 1;
+  }
+  
+  .book-meta h2 {
+    margin-bottom: 15px;
+  }
+  
+  .review-list {
+    margin-top: 40px;
+  }
+  
+  @media (max-width: 768px) {
+    .book-info {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .book-info img {
+      width: 100%;
+      height: auto;
+    }
+  
+    .book-meta {
+      text-align: center;
+    }
+  }
+  .review-container > :last-child::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  .review-container > :last-child::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  .review-container > :last-child::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 3px;
+  }
+  
+  .review-container > :last-child::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+  

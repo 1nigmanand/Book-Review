@@ -1,0 +1,45 @@
+/* app.css */
+
+/* Root container styling */
+.app {
+  display: flex;
+  flex-direction: column; /* Arrange child elements vertically */
+  min-height: 100vh; /* Full viewport height */
+  background-color: #f4f7fc; /* Consistent background color */
+}
+
+/* Header styling */
+.header {
+  background-color: #007bff; /* Primary color for the header */
+  color: white; /* White text color */
+  padding: 15px 0; /* Vertical padding for spacing */
+  text-align: center; /* Center align text */
+  font-size: 1.5rem; /* Larger font size for the header */
+}
+
+/* Main content area styling */
+.main-content {
+  flex: 1; /* Takes up available space between header and footer */
+  padding: 20px; /* Padding around content */
+  background-color: #fff; /* White background for content area */
+}
+
+/* Footer styling */
+.footer {
+  background-color: #333; /* Dark background for the footer */
+  color: white; /* White text color */
+  padding: 20px 0; /* Vertical padding for spacing */
+  text-align: center; /* Center align text */
+  font-size: 1rem; /* Font size for footer text */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .header, .footer {
+    padding: 10px 0; /* Reduced padding for smaller screens */
+  }
+
+  .main-content {
+    padding: 15px; /* Adjusted padding for mobile devices */
+  }
+}

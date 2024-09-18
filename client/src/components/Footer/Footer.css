@@ -1,0 +1,40 @@
+/* Footer.css */
+
+/* Main footer container */
+.footer {
+  background-color: #333;
+  color: #f1f1f1; /* Light text color for better readability */
+  padding: 30px 20px; /* Ample padding for a spacious feel */
+  text-align: center;
+  border-top: 1px solid #444; /* Subtle border for separation */
+  font-family: Arial, sans-serif; /* Clean, readable font */
+}
+
+/* Footer text styling */
+.footer p {
+  margin: 0;
+  font-size: 18px; /* Adjusted for better readability */
+  line-height: 1.5; /* Spacing between lines for clarity */
+}
+
+/* Link styling in the footer */
+.footer a {
+  color: #f1f1f1; /* Matches the text color */
+  text-decoration: none; /* Removes the default underline */
+}
+
+.footer a:hover {
+  color: #ff6600; /* Highlight color on hover */
+  text-decoration: underline; /* Underline on hover for better UX */
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+  .footer {
+    padding: 20px 10px; /* Adjusts padding for smaller screens */
+  }
+
+  .footer p {
+    font-size: 16px; /* Smaller font size for mobile devices */
+  }
+}

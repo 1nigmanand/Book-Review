@@ -1,0 +1,79 @@
+/* ReviewForm.css */
+
+/* Main form container */
+.review-form {
+  background-color: #fff; /* White background for contrast */
+  padding: 20px;
+  border-radius: 8px; /* Rounded corners for a modern look */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  max-width: 600px; /* Limits the width for better alignment */
+  margin: 20px auto; /* Centers the form horizontally */
+}
+
+/* Form header styling */
+.review-form h3 {
+  margin: 0 0 15px; /* Removes top margin and adds space below */
+  font-size: 1.5rem; /* Larger font size for the header */
+  color: #333; /* Dark text for contrast */
+}
+
+/* Label styling */
+.review-form label {
+  display: block; /* Ensures labels are on their own line */
+  margin-bottom: 5px; /* Space below labels */
+  font-weight: bold; /* Makes labels stand out */
+  color: #555; /* Slightly lighter color for labels */
+}
+
+/* Input and textarea styling */
+.review-form input,
+.review-form textarea {
+  width: 100%; /* Full width for consistent look */
+  padding: 10px; /* Padding inside the fields */
+  margin-bottom: 15px; /* Space below fields */
+  border: 1px solid #ddd; /* Light border color */
+  border-radius: 4px; /* Rounded corners */
+  font-size: 1rem; /* Consistent font size */
+  box-sizing: border-box; /* Includes padding and border in element's total width and height */
+}
+
+/* Specific styling for textarea */
+.review-form textarea {
+  height: 100px; /* Fixed height for multi-line input */
+  resize: vertical; /* Allows users to resize vertically only */
+}
+
+/* Button styling */
+.review-form button {
+  width: 100%; /* Full width for the button */
+  background-color: #28a745; /* Primary button color */
+  border: none; /* Removes default border */
+  color: #fff; /* White text color */
+  padding: 10px; /* Padding inside the button */
+  border-radius: 4px; /* Rounded corners */
+  font-size: 16px; /* Larger font size for the button text */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+
+/* Button hover effect */
+.review-form button:hover {
+  background-color: #218838; /* Darker shade of green on hover */
+}
+
+/* Error message styling */
+.review-form .error-message {
+  color: #e74c3c; /* Red color for errors */
+  margin-bottom: 15px; /* Space below error messages */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .review-form {
+    padding: 15px; /* Reduced padding for smaller screens */
+  }
+
+  .review-form h3 {
+    font-size: 1.2rem; /* Smaller header text for mobile */
+  }
+}

@@ -87,6 +87,9 @@ This project uses a simple database to store books and reviews. The database str
 - **Reviews Table:**
   - `book_id`, `rating` (1-5), `comment`
 
+## Live Demo
+
+You can view the deployed application [here](https://book-review-frontend-fqkz.onrender.com/).
 ## License
 
 This project is open source and available under the [MIT License](https://opensource.org/license/ricohpl-php).

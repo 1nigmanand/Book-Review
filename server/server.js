@@ -7,8 +7,8 @@ const cors = require('cors');
 dotenv.config();
 
 // Import routes
-const bookRoutes = require('./routes/bookroutes');  // Check the path and filename
-const reviewRoutes = require('./routes/reviewroutes');
+const bookRoutes = require('./routes/bookRoutes');  // Check the path and filename
+const reviewRoutes = require('./routes/reviewRoutes');
 
 // Initialize Express app
 const app = express();

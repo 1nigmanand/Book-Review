@@ -35,17 +35,19 @@ To run this project locally, you will need the following installed:
 
 2. **Navigate to the Project Directory**
 
-To navigate to the project directory, run the following command:
-
+   To navigate to the project directory, run the following command:
+   
    ```bash
    cd book-review
-```
-2. **Navigate to the Project Directory:**
-   
-```bash
-cd book-review
-```
-4. **Install Dependencies for Backend:**
+   ```
+      
+3. **Install Dependencies for Backend:**
+   Navigate to the server folder and install the necessary packages:
+      ```bash
+      cd server
+      npm install
+      ```
+     
 5. **Install Dependencies for Frontend:**
 
 

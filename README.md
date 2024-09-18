@@ -73,21 +73,18 @@ To run this project locally, you will need the following installed:
 
 ## API Endpoints
 
-### Retrieve the List of All Books
+- **GET /books**: Retrieve the list of all books.
+- **GET /books/:id**: Retrieve details and reviews for a specific book.
+- **POST /books/reviews**: Submit a review for a specific book.
 
-**GET** `/books`
+## Database Setup
 
-Retrieve a list of all books available in the system.
+This project uses a simple database to store books and reviews. The database structure includes:
 
-### Retrieve Details and Reviews for a Specific Book
+- **Books Table:**
+  - `id`, `title`, `author`, `description`, `image_url`
 
-**GET** `/books/:id`
+- **Reviews Table:**
+  - `book_id`, `rating` (1-5), `comment`
 
-Retrieve details and reviews for a specific book, where `:id` is the unique identifier for the book.
-
-### Submit a Review for a Specific Book
-
-**POST** `/books/:id/reviews`
-
-Submit a review for a specific book, where `:id` is the unique identifier for the book.
 

@@ -87,4 +87,7 @@ This project uses a simple database to store books and reviews. The database str
 - **Reviews Table:**
   - `book_id`, `rating` (1-5), `comment`
 
+## License
+
+This project is open source and available under the [MIT License](https://opensource.org/licenses/MIT).
 

@@ -43,13 +43,17 @@ To run this project locally, you will need the following installed:
       
 3. **Install Dependencies for Backend:**
    Navigate to the server folder and install the necessary packages:
-      ```bash
-      cd server
-      npm install
-      ```
+   ```bash
+   cd server
+   npm install
+   ```
      
-5. **Install Dependencies for Frontend:**
+4. **Install Dependencies for Frontend:**
+   Navigate to the client folder and install the necessary packages:
 
-
+   ```bash
+   cd ../client
+   npm install
+   ```
 
 

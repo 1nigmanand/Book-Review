@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
-const Book = require('../models/bookmodel');  // Assumes you have a Book model
-const Review = require('../models/reviewmodel');  // Assumes you have a Review model
+const Book = require('../models/bookModel');  // Assumes you have a Book model
+const Review = require('../models/reviewModel');
 
 // GET /books: Get the list of all books
 router.get('/', async (req, res) => {

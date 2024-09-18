@@ -1,6 +1,5 @@
 const ReviewList = ({ reviews }) => {
-  // Ensure reviews is defined and is an array
-  console.log(reviews.count()));
+
   
   if (!reviews || !Array.isArray(reviews)) {
     return <p>No reviews available.</p>; // Handle the case where reviews is undefined

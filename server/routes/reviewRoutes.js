@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
-const Review = require('../models/reviewmodel');  // Import Review model
-const Book = require('../models/bookmodel');      // Import Book model
+const Book = require('../models/bookModel');  // Assumes you have a Book model
+const Review = require('../models/reviewModel');// Import Book model
 // GET /api/reviews/:bookId - Get all reviews for a specific book
 router.get('/:bookId', async (req, res) => {
   const { bookId } = req.params;
